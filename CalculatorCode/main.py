@@ -1,6 +1,7 @@
 import sys
 
 def error_checking(a, b, str):
+    """Проверка на ошибки, а именно неправильный ввод"""
     if len(str) != 3:
         sys.exit()
     try:
@@ -15,6 +16,7 @@ def error_checking(a, b, str):
         sys.exit(-1)
 
 def calculating(a, b, str):
+    """Обработка всех операций"""
     c = 0
     if str[1] == "+":
         c = a + b

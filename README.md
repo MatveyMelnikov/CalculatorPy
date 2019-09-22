@@ -1,2 +1,2 @@
 # CalculatorPy
-Larn Python
+Learn Python
